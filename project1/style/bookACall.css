@@ -1,0 +1,300 @@
+.bookACallContainer {
+  display: flex;
+  justify-content: center;
+
+  background-color: #000000;
+}
+
+.bookACallFlexContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 1215px;
+}
+
+.bookACallIntro {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 178px;
+  margin-bottom: 99.98px;
+}
+
+.bookACallQuestion {
+  margin-bottom: 9px;
+
+  font-size: 54px;
+  line-height: 59.4px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 1px;
+  color: #FFFFFF;  
+}
+
+.bookACallTitle {
+  font-size: 54px;
+  line-height: 59.4px;
+  font-family: "Roboto-Bold";
+  color: #3C46FF;
+}
+
+.bookACallInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 354.5px;
+}
+
+.bookACallRequisites {
+  display: flex;
+  flex-direction: column;
+
+  width: 375px;
+}
+
+.bookACallAddress {
+  margin-top: 11.7px;
+  margin-bottom: 12px;
+
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  color: #666666;
+}
+
+.bookACallEMail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 6.37px;
+}
+
+.bookACallEMailAddress {
+  font-size: 17px;
+  line-height: 36px;
+  font-family: "Roboto-Regular";
+  color: #5C5C5C;
+}
+
+.bookACallWebsiteLogo {
+  width: 203px;
+  height: 28px;
+}
+
+.bookACallEMailImage {
+  width: 30px;
+  height: 21px;
+}
+
+.footerWebsiteNavigation {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 40px;
+
+  margin-top: -3px;
+  max-width: 485px;
+}
+
+.footerWebsiteNavigationLink {
+  width: 95px;
+
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto-Regular";
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footerWebsiteNavigationLink:visited {
+  color: #FFFFFF;
+}
+
+.copyrightList {
+  margin-top: 140px;
+  margin-bottom: 22px;
+}
+
+.copyright {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  font-size: 16px;
+  line-height: 20.8px;
+  font-family: "Roboto-Regular";
+  color: #8A95AD;
+}
+
+.bookACallMarginLeft1 {
+  margin-left: 6px;
+}
+
+.bookACallMarginLeft2 {
+  margin-left: 7px;
+}
+
+.bookACallMarginLeft3 {
+  margin-left: 7px;
+}
+
+.bookACallMarginLeft4 {
+  margin-left: 11px;
+}
+
+.bookACallMarginLeft5 {
+  margin-left: 12px;
+}
+
+.bookACallMarginLeft6 {
+  margin-left: 14px;
+}
+
+.bookACallMarginLeft7 {
+  margin-left: 13px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bookACallIntro {
+    align-items: center;
+  }
+
+  .bookACallInfo {
+    justify-content: space-around;
+    column-gap: 1px;
+  }
+
+  .copyrightList {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .bookACallIntro {
+    margin-top: 100px;
+
+    text-align: center;
+  }
+
+  .bookACallQuestion {
+    margin-bottom: 0;
+
+    font-size: 44px;
+  }
+
+  .bookACallTitle {
+    font-size: 44px;
+  }
+
+  .bookACallInfo {
+    justify-content: space-around;
+    column-gap: 1px;
+  }
+
+  .bookACallRequisites {
+    width: 288px;
+  }
+
+  .bookACallAddress {
+    font-size: 15px;
+  }
+
+  .bookACallEMailAddress {
+    font-size: 15px;
+  }
+
+  .bookACallEMailImage {
+    width: 27px;
+    height: 19px;
+  }
+
+  .footerWebsiteNavigation {
+    column-gap: 50px;
+    row-gap: 30px;
+
+    max-width: 385px;
+  }
+
+  .copyrightList {
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bookACallIntro {
+    margin-top: 100px;
+
+    text-align: center;
+  }
+
+  .bookACallQuestion {
+    margin-bottom: 0;
+
+    font-size: 44px;
+  }
+
+  .bookACallTitle {
+    font-size: 44px;
+  }
+
+  .bookACallInfo {
+    justify-content: space-around;
+
+    column-gap: 1px;
+  }
+
+  .bookACallRequisites {
+    width: 212px;
+  }
+
+  .bookACallAddress {
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    font-size: 11px;
+  }
+
+  .bookACallEMailAddress {
+    font-size: 11px;
+  }
+
+  .bookACallWebsiteLogo {
+    width: 180px;
+    height: 25px;
+  }
+
+  .bookACallEMailImage {
+    width: 23px;
+    height: 16px;
+  }
+
+  .footerWebsiteNavigation {
+    column-gap: 30px;
+    row-gap: 20px;
+
+    margin-top: 9px;
+    max-width: 222px;
+  }
+
+  .footerWebsiteNavigationLink {
+    width: 47px;
+
+    font-size: 12px;
+    line-height: 0px;
+  }
+
+  .copyrightList {
+    margin-top: 12px;
+    margin-bottom: 0px;
+
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 7px;
+  }
+}

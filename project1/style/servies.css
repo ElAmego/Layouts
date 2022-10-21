@@ -1,0 +1,185 @@
+.Services {
+  display: flex;
+  justify-content: center;
+}
+
+.ServicesFlexContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 1098px;
+  height: auto;
+}
+
+.ServicesTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.ServicesTitleFlexContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  max-width: 810px;
+  height: auto;
+
+}
+
+.ServicesTitle {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 76.27px;
+  margin-bottom: 23px;
+
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FF5E69;
+}
+
+.ServicesDiscription {
+  margin-bottom: 112.73px;
+
+  font-size: 54px;
+  line-height: 59.4px;
+  font-family: "Roboto-Bold";
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 90px;
+}
+
+.card {
+  margin-bottom: 75.73px;
+  width: 306px;
+  height: auto;
+}
+
+.cardTitle {
+  margin-top: 39px;
+  margin-bottom: 25px;
+
+  font-size: 24px;
+  line-height: 26.4px;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.cardDiscription {
+  width: 252px;
+
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Roboto-Regular";
+  color: #666666;
+}
+
+.cardList {
+  margin-left: 14px;
+  margin-top: 20px;
+  
+  list-style-type: square;
+
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.cardList li{
+  margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cards {
+    column-gap: 38px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 279px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .ServicesDiscription {
+    margin-bottom: 62.73px;
+
+    font-size: 44px;
+    line-height: 46.4px;
+  }
+
+  .cards {
+    justify-content: center;
+    column-gap: 31px;
+  }
+
+  .card {
+    width: 211px;
+  }
+
+  .cardTitle {
+    font-size: 19px;
+  }
+
+  .cardDiscription {
+    width: 215px;
+  }
+
+  .cardList {
+    font-size: 14px;
+    line-height: 22px;  
+  }
+}
+
+@media (max-width: 767px) {
+  .ServicesTitle {
+    font-size: 18px;
+  }
+
+  .ServicesDiscription {
+    margin-bottom: 62.73px;
+    
+    font-size: 31px;
+    line-height: 32.4px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 38.73px;
+    width: 211px;
+  }
+
+  .cardTitle {
+    margin-top: 20px;
+    margin-bottom: 14px;
+
+    font-size: 19px;
+  }
+
+  .cardDiscription {
+    width: 215px;
+    
+    line-height: 22px;
+  }
+
+  .cardList {
+    font-size: 14px;
+    line-height: 15px;  
+  }
+}

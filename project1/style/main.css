@@ -1,0 +1,30 @@
+@import url(header.css);
+@import url(about.css);
+@import url(trustedBy.css);
+@import url(servies.css);
+@import url(projects.css);
+@import url(blogs.css);
+@import url(productDesigner.css);
+@import url(educationAndExperience.css);
+@import url(testimonials.css);
+@import url(faq.css);
+@import url(bookACall.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+}

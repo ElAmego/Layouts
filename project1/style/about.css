@@ -1,0 +1,234 @@
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutFlexContainer {
+  display: flex;
+  flex-direction: row;
+
+  width: 1215px;
+  height: auto;
+  margin-top: 68px;
+  margin-bottom: 75px;
+}
+
+.about {
+  margin-top: 44px;
+}
+
+.aboutTitle {
+  margin-bottom: 34px;
+
+  font-size: 72px;
+  line-height: 82.5px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+.aboutTitleOrange {
+  color: #FF8A56;
+}
+
+.aboutDiscription {
+  max-width: 547px;
+  margin-bottom: 38px;
+
+  font-size: 22px;
+  line-height: 33px;
+  font-family: "Roboto-Regular";
+  color: #666666;
+}
+
+.linkAndButton {
+  display: flex;
+  align-items: center;
+
+  height: 58px;
+}
+
+.linkAbout {
+  padding: 17px 32px 23px 30px;
+
+  background-color: #000000;
+
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto-Regular";
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.download {
+  margin-left: 41px;
+  border: none;
+
+  background-color: #FFFFFF;
+
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto-Regular";
+  color: #000000;
+
+  cursor: pointer;
+}
+
+.vectorAbout {
+  margin-left: 29px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .aboutFlexContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+  }  
+
+  .aboutTitle {
+    margin-left: 40px;
+    width: 502px;
+
+    font-size: 59px;
+    line-height: 1;
+  }
+
+  .aboutDiscription {
+    margin-left: 40px;
+  }
+
+  .linkAndButton {
+    margin-left: 40px;
+  }
+
+  .PhotoAbout {
+    width: 450px;
+    height: 536px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutFlexContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+  }  
+
+  .aboutTitle {
+    margin-left: 40px;
+    width: 335px;
+
+    font-size: 39px;
+    line-height: 1;
+  }
+
+  .aboutDiscription {
+    margin-left: 40px;
+  }
+
+  .linkAndButton {
+    margin-left: 40px;
+  }
+
+  .linkAbout {
+    font-size: 13px;
+  }
+
+  .download {
+    font-size: 13px;
+  }
+
+  .PhotoAbout {
+    width: 400px;
+    height: 476px;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutFlexContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+  }  
+
+  .aboutTitle {
+    margin-left: 40px;
+    width: 250px;
+
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .aboutDiscription {
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+    line-height: 1;
+    font-size: 15px;
+  }
+
+  .linkAndButton {
+    margin-left: 40px;
+  }
+
+  .linkAbout {
+    padding: 8px 16px 10px 14px;
+
+    font-size: 12px;
+  }
+
+  .download {
+    font-size: 12px;
+  }
+
+  .PhotoAbout {
+    width: 200px;
+    height: 238px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutFlexContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+  }  
+
+  .aboutTitle {
+    margin-left: 40px;
+    width: 170px;
+
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .aboutDiscription {
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .linkAndButton {
+    margin-left: 40px;
+  }
+
+  .linkAbout {
+    padding: 8px 16px 10px 14px;
+
+    font-size: 9px;
+  }
+
+  .download {
+    margin-left: 18px;
+    
+    font-size: 9px;
+  }
+  
+  .vectorAbout {
+    margin-left: 10px;
+  }
+
+  .PhotoAbout {
+    width: 150px;
+    height: 179px;
+  }
+}

@@ -1,0 +1,78 @@
+.newArrivalsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.newArrivalsFlexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+}
+
+.newArrivalsTitle {
+  margin-top: 123px;
+
+  font-size: 36px;
+  line-height: 42.19px;
+  font-family: "PlayfairDisplay-SemiBold";
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.newArrivalsLine {
+  margin-top: 41px;
+  margin-bottom: 81px;
+  width: 120px;
+  
+  color: #FFFFFF;
+}
+
+.newArrivalsCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 41px;
+
+  margin-bottom: 150px;
+  max-width: 1134px;
+  width: 100%;
+}
+
+.newArrivalsCard {
+  display: flex;
+  flex-direction: column;
+
+  cursor: pointer;
+
+  max-width: 260px;
+  width: 100%;
+}
+
+.newArrivalsCardPhoto {
+  padding: 55px 22px 56px 23px;
+
+  background-color: #191B1C;
+}
+
+.newArrivalsCardTitle {
+  margin-top: 25px;
+  margin-bottom: 14px;
+
+  font-size: 18px;
+  line-height: 21.09px;
+  font-family: "PlayfairDisplay-Regular";
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.newArrivalsCardPrice {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-family: "PlayfairDisplay-SemiBold";
+  color: #D0D0D0;
+}

@@ -1,0 +1,45 @@
+.ourBrandsContainer {
+  display: flex;
+  justify-content: center;
+
+  background-color: #0F0F0F;
+}
+
+.ourBrandsFlexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+}
+
+.ourBrandsTitle {
+  margin-top: 64px;
+
+  font-size: 36px;
+  line-height: 42.19px;
+  font-family: "PlayfairDisplay-SemiBold";
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.ourBrandsLine {
+  margin-top: 42px;
+  margin-bottom: 40px;
+  width: 120px;
+
+  color: #FFFFFF;
+}
+
+.ourBrandsLogos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  margin-bottom: 74px;
+  max-width: 1139px;
+  width: 100%;
+}

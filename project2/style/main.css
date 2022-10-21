@@ -1,0 +1,40 @@
+@import url(header.css);
+@import url(navigation.css);
+@import url(intro.css);
+@import url(new.css);
+@import url(collection2018.css);
+@import url(newArrivals.css);
+@import url(ourBrands.css);
+@import url(info.css);
+@import url(footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  background-color: #000000;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                               not supported by any browser */
+}

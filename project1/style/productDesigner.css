@@ -1,0 +1,146 @@
+.productDesignerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.productDesignerFlexContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 1215px;
+  height: auto;
+}
+
+.productDesigner {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 317px;
+
+  margin-top: 156.73px;
+  margin-bottom: 116px;
+}
+
+.productDesignerTitle {
+  margin-bottom: 15px;
+
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 3.4px;
+  text-transform: uppercase;
+  color: #FF5E69;
+}
+
+.productDesignerDiscription {
+  font-size: 54px;
+  line-height: 59.4px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.productDesignerText {
+  display: flex;
+
+  margin-top: 10px;
+  max-width: 625px;
+
+  font-size: 22px;
+  line-height: 40px;
+  font-family: "Roboto-Regular";
+  color: #666666;
+}
+
+.productDesignerPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+}
+
+.productDesignerPhotosVertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.marginPhoto {
+  margin-bottom: 16px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .productDesigner {
+    justify-content: space-around;
+    column-gap: 0;
+
+    margin-top: 45.73px;
+  }
+  
+  .productDesignerPhotos {
+    justify-content: center;
+    row-gap: 14px;
+  }
+
+  .productDesignerPhotosVertical {
+    flex-wrap: wrap;  
+    flex-direction: row;
+    column-gap: 16px;
+  }
+
+  .marginPhoto {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .productDesigner {
+    justify-content: center;
+
+    margin-top: 45.73px;
+    margin-bottom: 45px;
+  }
+  
+  .productDesignerPhotos {
+    justify-content: center;
+  }
+
+  .productDesignerPhotosVertical {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+  }
+
+  .marginPhoto {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .productDesigner {
+    justify-content: center;
+    
+    margin-top: 45.73px;
+    margin-bottom: 45px;
+  }
+
+  .productDesignerText {
+    max-width: 477px;
+  }
+  
+  .productDesignerPhotos {
+    justify-content: center;
+    row-gap: 10px;
+  }
+
+  .productDesignerPhotosVertical {
+    flex-wrap: wrap;
+  }
+  
+  .designerPhoto {
+    width: 338px;
+    height: 417px;
+  }
+
+  .marginPhoto {
+    margin: 0;
+  }
+}

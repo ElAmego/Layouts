@@ -1,0 +1,198 @@
+.newContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.newFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+}
+
+.newSeason {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1040px;
+  width: 100%;
+}
+
+.newSeasonTitle {
+  margin-top: 96px;
+  margin-bottom: 42px;
+
+  font-size: 36px;
+  line-height: 42.19px;
+  font-family: "PlayfairDisplay-Regular";
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.newSeasonLine {
+  width: 120px;
+
+  color: #FFFFFF;
+}
+
+.newSeasonCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 50px;
+  margin-bottom: 94px;
+  max-width: 880px;
+  width: 100%;
+}
+
+.newSeasonCard {
+  cursor: pointer;
+}
+
+.watchPhoto {
+  padding: 55px 22px 56px 23px;
+
+  background-color: #191B1C;
+}
+
+.newSeasonCardTitle {
+  margin-top: 23px;
+  margin-bottom: 11px;
+
+  font-size: 18px;
+  line-height: 21.09px;
+  font-family: "PlayfairDisplay-Regular";
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.newSeasonCardPrice {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-family: "PlayfairDisplay-SemiBold";
+  color: #D0D0D0;
+}
+
+.newCollection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  max-width: 880px;
+  width: 100%;
+  height: 730px;
+
+  background-image: url(../img/new/newCollectionBackground.png);
+}
+
+.newCollectionTitle {
+  font-size: 36px;
+  line-height: 42.19px;
+  font-family: "PlayfairDisplay-Regular";
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+.newCollectionLine {
+  margin-top: 23px;
+  margin-bottom: 30px;
+  width: 120px;
+
+  color: #FFFFFF;
+}
+
+.newCollectionButton {
+  padding: 11px 28px;
+  margin-bottom: 100px;
+  border: 1px solid #FFFFFF;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  font-size: 18px;
+  line-height: 23.39px;
+  font-family: "PTSans-Regular";
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  color: #FFFFFF;
+}
+
+.newCollectionButton:active {
+  background-color: #ffffff5c;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .newFlexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newSeasonCards {
+    margin-bottom: 70px;
+  }
+
+  .newCollection {
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .newFlexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newSeasonCards {
+    margin-bottom: 70px;
+  }
+
+  .newCollection {
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .newFlexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newSeasonCards {
+    justify-content: space-around;
+    row-gap: 50px;
+
+    margin-bottom: 70px;
+  }
+
+  .newCollection {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .newFlexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newSeasonCards {
+    justify-content: space-around;
+    row-gap: 50px;
+    
+    margin-bottom: 70px;
+  }
+
+  .newCollection {
+    margin-bottom: 70px;
+    background-position-x: center;
+  }
+}

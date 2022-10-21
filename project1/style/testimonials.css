@@ -1,0 +1,266 @@
+.testimonialsContainer {
+  display: flex;
+  justify-content: center; 
+}
+
+.testimonialsFlexContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 1215px;
+}
+
+.testimonialsIntro {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 75px;
+  margin-bottom: 85px;
+}
+
+.testimonialsTitle {
+  margin-bottom: 18px;
+
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto-Regular";
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  color: #4353FF;
+}
+
+.testimonialsDiscription {
+  font-size: 54px;
+  line-height: 59.4px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.testimonialsHuman {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 146.31px;
+
+  margin-bottom: 160px;
+}
+
+.testimonialsHumanInfo {
+  display: flex;
+  flex-direction: column;
+  align-self: self-end;
+
+  max-width: 583.19px;
+  height: 425px;
+}
+
+.testimonialsHumanData {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 300px;
+}
+
+.HumanData {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonialsQuotes {
+  width: 44.08px;
+  height: 44.08px;
+}
+
+.testimonialsComment {
+  margin-top: 32.06px;
+  margin-bottom: 109px;
+
+  font-size: 36px;
+  line-height: 46.8px;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.testimonialsHumanName {
+  margin-top: 3px;
+  margin-bottom: 8px;
+
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.testimonialsHumanCity {
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto-Regular";
+  color: #000000;
+}
+
+.testimonialsButtons {
+  display: flex;
+}
+
+.testimonialsHumanButton {
+  padding: 18px 21.22px 20.27px 20px;
+  border: none;
+
+  background-color: #000000;
+
+  cursor: pointer;
+}
+
+.testimonialsPhoto {
+  border-radius: 8px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .testimonialsIntro {
+    align-items: center;
+  }
+
+  .testimonialsHuman {
+    justify-content: space-around;
+    column-gap: 0;
+
+    margin-bottom: 90px;
+  }
+
+  .testimonialsHumanInfo {
+    max-width: 420px;
+    height: auto; 
+  }
+
+  .testimonialsHumanData {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .testimonialsQuotes {
+    width: 30px;
+    height: 30px;
+  }
+
+  .testimonialsComment {
+    margin-bottom: 30px;
+
+    font-size: 26px;
+  }
+
+  .testimonialsPhoto {
+    width: 359px;
+    height: 333.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonialsIntro {
+    align-items: center;
+
+    margin-bottom: 50px;
+  }
+
+  .testimonialsHuman {
+    justify-content: space-around;
+    column-gap: 0;
+
+    margin-bottom: 90px;
+  }
+
+  .testimonialsHumanInfo {
+    max-width: 420px;
+    height: auto; 
+  }
+
+  .testimonialsHumanData {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .testimonialsQuotes {
+    width: 20px;
+    height: 20px;
+  }
+
+  .testimonialsComment {
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .testimonialsHumanName {
+    font-size: 18px;
+  }
+
+  .testimonialsHumanCity {
+    font-size: 16px;
+  }
+
+  .testimonialsHumanButton {
+    padding: 13px 16.22px 15.27px 15px;
+  }
+
+  .testimonialsPhoto {
+    width: 220px;
+    height: 204px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonialsIntro {
+    align-items: center;
+
+    margin-bottom: 50px;
+  }
+
+  .testimonialsHuman {
+    justify-content: space-around;
+    column-gap: 0;
+
+    margin-bottom: 90px;
+  }
+
+  .testimonialsHumanInfo {
+    margin-top: 15px;
+    max-width: 420px;
+    height: auto; 
+  }
+
+  .testimonialsHumanData {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .testimonialsQuotes {
+    width: 20px;
+    height: 20px;
+  }
+
+  .testimonialsComment {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .testimonialsHumanName {
+    font-size: 18px;
+  }
+
+  .testimonialsHumanCity {
+    font-size: 16px;
+  }
+
+  .testimonialsHumanButton {
+    padding: 13px 16.22px 15.27px 15px;
+  }
+
+  .testimonialsPhoto {
+    width: 220px;
+    height: 204px;
+  }
+}

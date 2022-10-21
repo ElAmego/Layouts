@@ -1,0 +1,33 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.footerFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  max-width: 1145px;
+  width: 100%;
+  height: auto;
+}
+
+.footerCopyright {
+  margin: 17px;
+
+  font-size: 12px;
+  line-height: 15.53px;
+  font-family: "PTSans-Regular";
+  color: #D0D0D0;
+}
+
+.footerLink {
+  margin: 17px;
+
+  font-size: 12px;
+  line-height: 15.53px;
+  font-family: "PTSans-Regular";
+  color: #D0D0D0;  
+}

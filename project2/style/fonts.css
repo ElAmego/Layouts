@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  src: url(../fonts/PlayfairDisplay-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Medium";
+  src: url(../fonts/PlayfairDisplay-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url(../fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-SemiBold";
+  src: url(../fonts/PlayfairDisplay-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PostNoBillsJaffna-Bold";
+  src: url(../fonts/PostNoBillsJaffna-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PostNoBillsJaffna-Medium";
+  src: url(../fonts/PostNoBillsJaffna-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PostNoBillsJaffna-Regular";
+  src: url(../fonts/PostNoBillsJaffna-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PostNoBillsJaffna-SemiBold";
+  src: url(../fonts/PostNoBillsJaffna-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../fonts/PTSans-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../fonts/PTSans-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; 
+}

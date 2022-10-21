@@ -1,0 +1,222 @@
+.educationAndExperienceContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.educationAndExperienceFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 48.31px;
+
+  max-width: 1215px;
+}
+
+.educationAndExperienceCard {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 152px;
+  margin-bottom: 114.66px;
+  max-width: 583.19px;
+}
+
+.educationAndExperienceCardTitle {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 6px;
+}
+
+.educationAndExperienceCardName {
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "Roboto-Regular";
+  color: #000000;
+}
+
+.educationAndExperienceCardLogo {
+  width: 36px;
+  height: 36px;
+}
+
+.educationAndExperienceCardDiscription {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 48.66px;
+}
+
+.educationAndExperienceCardItemIntro {
+  display: flex;
+  flex-direction: column;
+}
+
+.educationAndExperienceCardItem {
+  display: flex;
+
+  margin-top: 33.5px;
+  margin-bottom: 39px;
+}
+
+.educationAndExperienceCardItemDate {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+  width: 157px;
+}
+
+.educationAndExperienceCardItemTitle {
+  margin-bottom: 9px;
+
+  font-size: 24px;
+  line-height: 26.4px;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.educationAndExperienceCardItemDiscription {
+  font-size: 16px;
+  line-height: 20.8px;
+  font-family: "Roboto-Regular";
+  color: #00000099;
+}
+
+.educationAndExperienceCardYear {
+  width: 179px;
+
+  font-size: 16px;
+  line-height: 20.8px;
+  font-family: "Roboto-Regular";
+  color: #00000099;
+}
+
+.educationAndExperienceCardButton {
+  align-self: flex-end;
+
+  border: none;
+  
+  background-color: #ffffff;
+}
+
+.educationAndExperienceLine {
+  color: #E5E5E5;
+}
+
+
+
+/* FIX */
+.margin1 {
+  margin-right: 172px;
+}
+
+.margin2 {
+  margin-right: 194px;
+}
+
+.margin3 {
+  margin-right: 124px;
+}
+
+.margin4 {
+  margin-left: 11px;
+  margin-right: 109px;
+}
+
+.margin5 {
+  margin-left: 12px;
+  margin-right: 124px;  
+}
+
+.margin6 {
+  margin-left: 12px;
+  margin-right: 176px;  
+}
+
+.width1 {
+  width: 229px;
+}
+
+.width2 {
+  width: 239px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .educationAndExperienceFlexContainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  
+  .educationAndExperienceCard {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+
+  .educationAndExperienceCardTitle {
+    justify-content: center;
+  }
+
+  .educationAndExperienceCardDiscription {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .educationAndExperienceFlexContainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  
+  .educationAndExperienceCard {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+
+  .educationAndExperienceCardTitle {
+    justify-content: center;
+  }
+
+  .educationAndExperienceCardDiscription {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .educationAndExperienceFlexContainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    max-width: 583.19px;
+
+    align-items: center;
+  }
+  
+  .educationAndExperienceCard {
+    margin-top: 80px;
+    margin-bottom: 0;
+
+    max-width: 583.19px;
+  }
+
+  .educationAndExperienceCardTitle {
+    justify-content: center;
+  }
+
+  .educationAndExperienceCardDiscription {
+    margin: 0;
+  }
+
+  .educationAndExperienceCardItemIntro {
+    justify-content: space-around;
+    
+    margin: 0;
+  }
+
+  .educationAndExperienceCardItemDate {
+    max-width: 157px;
+  }
+}

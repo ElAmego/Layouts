@@ -1,0 +1,112 @@
+.navigationContainer {
+  display: flex;
+  justify-content: center;
+
+  background-color: #0F0F0F;
+}
+
+.navigationFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  max-width: 1113px;
+  width: 100%;
+  height: auto;
+}
+
+.websiteLogo {
+  margin-top: 14px;
+  margin-left: 2px;
+
+  font-size: 36px;
+  line-height: 53.82px;
+  font-family: "PostNoBillsJaffna-Bold";
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navItem {
+  align-self: center;
+
+  list-style-type: none;
+}
+
+.navButton {
+  padding: 31px 20.3px;
+  border: none;
+
+  background-color: #0F0F0F;
+  cursor: pointer;
+
+  font-size: 14px;
+  line-height: 18.12px;
+  font-family: "PTSans-Regular";
+  text-transform: uppercase;
+  color: #969696;
+}
+
+.navButton:active {
+  background-color: #1F1F1F;
+  
+  color: #FFFFFF ;
+}
+
+.navItemMargin {
+  padding: 0;
+  margin-left: 41px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navigationFlexContainer {
+    justify-content: space-evenly;
+    column-gap: 252px;
+  }
+
+  .websiteLogo {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navigationFlexContainer {
+    justify-content: space-evenly;
+    column-gap: 15px;
+  }
+
+  .websiteLogo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navigationFlexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .websiteLogo {
+    margin-left: 0;
+  }
+
+  .navList {
+    justify-content: center;
+  }
+
+  .navButton {
+    padding: 26px 15.3px;
+  }
+
+  .navItemMargin {
+    padding: 0;
+    margin-left: 15px;
+  }
+}

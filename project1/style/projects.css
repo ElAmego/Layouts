@@ -1,0 +1,327 @@
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.projectsFlexContainer {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  
+  width: 1215px;
+  height: 621.27px;
+}
+
+.projectsIntro {
+  display: flex;
+  justify-content: space-between;
+
+  height: 242px;
+}
+
+.projectsIntroBlock {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-self: flex-end;
+
+  height: 162px;
+  width: 545px;
+}
+
+.projectsButton {
+  display: flex;
+  align-self: flex-end;
+
+  padding: 18px 39px 23px 30px;
+  margin-bottom: 45.73px;
+  border: none;
+
+  background-color: #000000;
+
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto-Regular";
+  color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+.projectsTitle {
+  margin-bottom: 20px;
+
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #B16CEA;
+}
+
+.projectsDiscription {
+  font-size: 54px;
+  line-height: 59.4px;
+  font-family: "Roboto-Bold";
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.projectsImages {
+  position: absolute;
+  top: 311px;
+
+  display: flex;
+  column-gap: 24px;
+
+  max-width: 1327px;
+}
+
+.projectsImagesCardDiscription {
+  background-color: #FFFFFF;
+}
+
+.projectsImagesCardTitle {
+  padding: 32px 0 16px 32px;
+
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Roboto-Regular";
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #3C46FF;
+}
+
+.projectsImagesCardName {
+  margin-left: 32px;
+
+  font-size: 24px;
+  line-height: 26.4px;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.projectsImagesCardButton {
+  padding: 20px 0 31px 31px;
+  border: none;
+
+  background-color: #FFFFFF;
+  
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto-Regular";
+  color: #000000;
+
+  cursor: pointer;
+}
+
+.projectsImagesCardVector {
+  margin-left: 14px;
+}
+
+.projectsImagesArrowsLeft {
+  position: absolute;
+  top: 495px;
+  right: 172px;
+
+  padding: 19px 22.28px 18.31px 24px;
+  border: none;
+
+  background-color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+.projectsImagesArrowsRight {
+  position: absolute;
+  top: 495px;
+  right: 111px;
+
+  padding: 19px 22.28px 18.31px 24px;
+  border: none;
+  
+  background-color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .projectsFlexContainer {
+    height: 539.27px;
+  }
+
+  .projectsIntro {
+    justify-content: space-around;
+  }
+
+  .projectsImagesCardTitle {
+    font-size: 12px;
+    padding-bottom: 6px;
+  }
+
+  .projectsImagesCardName {
+    font-size: 18px;
+  }
+
+  .projectsImagesCardButton {
+    font-size: 12px;
+
+    padding-top: 6px;
+  }
+
+  .projectsImagesArrowsLeft {
+    right: 420px;
+    top: 390px;
+
+    padding: 15px 18.28px 14.31px 20px;
+  }
+
+  .projectsImagesArrowsRight {
+    right: 362px;
+    top: 390px;
+
+    padding: 15px 18.28px 14.31px 20px;
+  }
+
+  .projectsImage1 {
+    height: 225px;
+    width: 300x;
+  }
+
+  .projectsImage2 {
+    width: 229px;
+    height: 225px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .projectsFlexContainer {
+    height: 485.27px;
+  }
+
+  .projectsIntro {
+    justify-content: space-around;
+  }
+
+  .projectsIntroBlock {
+    width: 429px;
+  }
+
+  .projectsDiscription {
+    font-size: 44px;
+  }
+
+  .projectsImagesCardName {
+    font-size: 14px;
+  }
+
+  .projectsImagesCardTitle {
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+    font-size: 10px;
+  }
+
+  .projectsImagesCardButton {
+    padding-top: 6px;
+    padding-bottom: 10px;
+
+    font-size: 10px;
+  }
+
+  .projectsImagesArrowsLeft {
+    right: 630px;
+    top: 300px;
+
+    padding: 13px 16.28px 12.31px 18px;
+  }
+
+  .projectsImagesArrowsRight {
+    right: 580px;
+    top: 300px;
+
+    padding: 13px 16.28px 12.31px 18px; 
+  }
+
+  .projectsImage1 {
+    width: 270px;
+    height: 170px;
+  }
+
+  .projectsImage2 {
+    width: 181px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projectsFlexContainer {
+    height: 485.27px;
+  }
+
+  .projectsIntroBlock {
+    width: 308px;
+  }
+
+  .projectsIntro {
+    justify-content: space-around;
+  }
+
+  .projectsButton {
+    padding: 8px 12px;
+
+    font-size: 12px;
+  }
+
+  .projectsTitle {
+    font-size: 18px;
+  }
+
+  .projectsDiscription {
+    font-size: 31px;
+    line-height: 32.4px;
+  }
+
+  .projectsImagesCardName {
+    font-size: 14px;
+  }
+
+  .projectsImagesCardTitle {
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+    font-size: 10px;
+  }
+
+  .projectsImagesCardButton {
+    padding-top: 6px;
+    padding-bottom: 10px;
+
+    font-size: 10px;
+  }
+
+  .projectsImagesArrowsLeft {
+    right: 910px;
+    top: 300px;
+
+    padding: 13px 16.28px 12.31px 18px;
+  }
+
+  .projectsImagesArrowsRight {
+    right: 860px;
+    top: 300px;
+
+    padding: 13px 16.28px 12.31px 18px; 
+  }
+
+  .projectsImage1 {
+    width: 270px;
+    height: 170px;
+  }
+
+  .projectsImage2 {
+    width: 181px;
+    height: 170px;
+  }
+}
